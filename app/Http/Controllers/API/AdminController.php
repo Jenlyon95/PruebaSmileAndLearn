@@ -25,7 +25,7 @@ class AdminController extends Controller
         Admin::create($request->all());
         return response()->json([
             'res'=> true,
-            'msg'=> 'Dreamer creado correctamente.'
+            'msg'=> 'Admin creado correctamente.'
         ]);
     }
 

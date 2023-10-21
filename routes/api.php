@@ -3,6 +3,7 @@
 use App\Http\Controllers\API\DreamerController;
 use App\Http\Controllers\API\AdminController;
 use App\Http\Controllers\API\GroupController;
+use App\Http\Controllers\AutenticarController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -28,3 +29,12 @@ Route::get('admins',[AdminController::class,'index']);
 Route::post('admins',[AdminController::class,'store']);
 Route::get('groups',[GroupController::class,'index']);
 Route::post('groups',[GroupController::class,'store']);
+
+Route::post('registro',[AutenticarController::class,'registro']);
+
+Route::post('acceso',[AutenticarController::class,'acceso']);
+
+Route::group(['middleware' => ['auth:sanctum']], function(){
+    Route::post('cerrarsesion',[AutenticarController::class,'cerrarSesion']);
+});
+

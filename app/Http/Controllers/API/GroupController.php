@@ -25,7 +25,7 @@ class GroupController extends Controller
         Group::create($request->all());
         return response()->json([
             'res'=> true,
-            'msg'=> 'Dreamer creado correctamente.'
+            'msg'=> 'Grupo creado correctamente.'
         ]);
     }
 

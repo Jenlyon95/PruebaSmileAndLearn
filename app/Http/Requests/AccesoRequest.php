@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class GuardarGroupRequest extends FormRequest
+class AccesoRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -22,7 +22,8 @@ class GuardarGroupRequest extends FormRequest
     public function rules(): array
     {
         return [
-            "asignatura" => "required",
+            'email'=>'required',
+            'password'=>'required'
         ];
     }
 }

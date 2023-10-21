@@ -11,9 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('groups', function (Blueprint $table) {
-            $table->group_id();
-            $table->string('asignatura');
+        Schema::create('dreamers_asignados', function (Blueprint $table) {
+            $table->id();
+            $table->integer('dreamer_id');
+            $table->integer('admin_id');
             $table->timestamps();
         });
     }
@@ -23,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('groups');
+        Schema::dropIfExists('dreamers_asignados');
     }
 };
