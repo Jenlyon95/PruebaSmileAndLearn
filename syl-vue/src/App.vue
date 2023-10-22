@@ -1,7 +1,8 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #e09322;">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Smile & Learn</a>
+    <img src="https://www.smileandlearn.com/wp-content/uploads/2021/03/Smile-and-Learn-descargar-pc-logo-1.png" alt="Logo de Smile & Learn" style="width: 50px; height: 75px;">
+    <a class="navbar-brand" href="#" style="color: #ffffff;"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -19,9 +20,6 @@
             
             <li>
               <router-link class="dropdown-item" to="/createD">Crear Dreamers</router-link>
-            </li>
-            <li>
-              <router-link class="dropdown-item" to="/editD">Editar Dreamers</router-link>
             </li>
             <li><hr class="dropdown-divider"></li>
             <li>

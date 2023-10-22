@@ -24,7 +24,7 @@
                   <input  v-on:change="previsualizarAvatar" type="file" accept="image/png, image/jpeg, image/jpg" class="form-control">
                 </div> 
                 <div class="d-grid col-6 mx-auto mb-3">
-                  <button class="btn btn-success"><i class="fa-solid fa-floppy-disk"> Registrar</i></button>
+                  <button class="btn btn-success" style="background-color: #e09322; border: 1px solid white; color: white;"><i class="fa-solid fa-floppy-disk" style="background-color: #e09322;"> Registrar</i></button>
                 </div> 
               </form>
           </div> 

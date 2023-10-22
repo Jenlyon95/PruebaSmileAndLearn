@@ -18,19 +18,19 @@
       <div class="d-grid col-6 mx-auto mb-3">
         <div>
           <div class="d-grid col-6 mx-auto mb-3">
-            <a href="viewD" class="btn btn-success">
+            <a href="viewD" class="btn btn-success" style="background-color: #e09322; border: 1px solid white; color: white;">
               <i class="fa-solid fa-floppy-disk"></i> Ver todos los dreamers
             </a>
           </div>
 
           <div class="d-grid col-6 mx-auto mb-3">
-            <a href="/createD" class="btn btn-success">
+            <a href="/createD" class="btn btn-success" style="background-color: #e09322; border: 1px solid white; color: white;">
               <i class="fa-solid fa-magic"></i> Crear nuevo dreamer
             </a>
           </div>
 
           <div class="d-grid col-6 mx-auto mb-3">
-            <a href="/gruposview" class="btn btn-success">
+            <a href="/gruposview" class="btn btn-success" style="background-color: #e09322; border: 1px solid white; color: white;">
               <i class="fa-solid fa-users"></i> Ver Grupos
             </a>
           </div>
